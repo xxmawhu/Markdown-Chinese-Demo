@@ -44,6 +44,10 @@ int main() {
     std::cout << "Hello, Github!" << std::endl;
 }
 ```
+### 其他
+#### 链接
+		[显示的问题](地址)， 比如
+        [我的github主页](https://github.com/xxmawhu)
 
 ### 链接
 1.[点击这里你可以链接到www.google.com](http://www.google.com)
@@ -106,7 +110,9 @@ GitHub的markdown语法还支持部分语言的代码片段高亮显示。只需
 * 城市：北京
 * 大学：清华大学 
 <br/>注意：星号*后面要有一个空格。否则显示为普通星号。
+
 GitHub还支持多级别的list列表条目：
+
 * 编程语言
 	* 脚本语言
 		* Python
@@ -116,32 +122,3 @@ GitHub还支持多级别的list列表条目：
 你想换行的话其实可以直接用html标签\<br /\>
     
 
-### 插入表格
-在Markdown中插入表格比较麻烦，需要Markdown的扩展语法，但是插入HTML就没有那么麻烦了，因此我们可以通过曲线救国的方式来插入表格。       
-在Markdown中，`&`符号和`<`会自动转换成HTML。
-
-	<div>
-	    <table border="0">
-		  <tr>
-		    <th>one</th>
-		    <th>two</th>
-		  </tr>
-		  <tr>
-		    <td>Hello</td>
-		    <td>你好</td>
-		  </tr>
-	    </table>
-	</div>
-	
-<div>
-        <table border="0">
-	  <tr>
-	    <th>one</th>
-	    <th>two</th>
-	  </tr>
-	  <tr>
-	    <td>Hello</td>
-	    <td>你好</td>
-	  </tr>
-	</table>
-</div>
