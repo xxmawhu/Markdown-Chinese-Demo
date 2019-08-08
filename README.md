@@ -55,6 +55,8 @@ int main() {
         [image](path/to/fig)
 
 ![image](/images/02.jpg)
+![image](/images/ucaslogo.eps)
+![image](/images/ucaslogo.pdf)
 ### 显示图片也可以用原生的html标签
 <img src="http://su.bdimg.com/static/superplus/img/logo_white.png" />
 
