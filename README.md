@@ -39,16 +39,12 @@
         文本以两个“Tab”开头, 而且每行都需要2个“Tab”开头，
         可以自由换行， 
         也可以插入代码。比如
-
-```c
+ ```c
     int main() {
         std::cout << "Hello, Github!" << std::endl;
     }
 ```
 
-```
-	int main(int argc,char *argv[]) //C
-```
 ### 多行文本框  
     这是一个有多行的文本框
     你可以写入代码等,每行文字只要输入两个Tab再输入文字即可
