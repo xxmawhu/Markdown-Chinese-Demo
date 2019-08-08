@@ -68,9 +68,9 @@ int main() {
 * \`\`\`后加语言类型，比如"c", "cpp", "Jave", "python"
 比如
 
-        ```c
-	        int main(int argc,char *argv[])
-        ```
+    ```c
+	    int main(int argc,char *argv[])
+    ```
 
 效果如下
 ```c
