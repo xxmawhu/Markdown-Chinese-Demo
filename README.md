@@ -40,31 +40,13 @@
         可以自由换行， 
         也可以插入代码。比如
 ```c
-            int main() {
-                std::cout << "Hello, Github!" << std::endl;
-            }
+int main() {
+    std::cout << "Hello, Github!" << std::endl;
+}
 ```
 
-### 多行文本框  
-    这是一个有多行的文本框
-    你可以写入代码等,每行文字只要输入两个Tab再输入文字即可
-    这里你可以输入一段代码
-
-### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧
-    public class HelloWorld {
-
-      /**
-      * @param args
-	    */
-	    public static void main(String[] args) {
-		    System.out.println("HelloWorld!");
-
-	    }
-
-    }
-
 ### 链接
-1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
+1.[点击这里你可以链接到www.google.com](http://www.google.com)
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
 
 ###只是显示百度的图片
