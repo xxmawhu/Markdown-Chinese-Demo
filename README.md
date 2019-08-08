@@ -51,10 +51,9 @@ int main() {
 [我的github主页](https://github.com/xxmawhu)
 
 
-###只是显示百度的图片
-![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
+#### 插入图片
+        [image](path/to/fig)
 
-###只是显示图片，这里用的是相对路径
 ![image](/images/02.jpg)
 ### 显示图片也可以用原生的html标签
 <img src="http://su.bdimg.com/static/superplus/img/logo_white.png" />
