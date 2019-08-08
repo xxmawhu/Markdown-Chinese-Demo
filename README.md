@@ -46,13 +46,10 @@ int main() {
 ```
 ### 其他
 #### 链接
-		[显示的问题](地址)， 比如
+        [显示的文字](地址)， 比如
         [我的github主页](https://github.com/xxmawhu)
+[我的github主页](https://github.com/xxmawhu)
 
-### 链接
-1.[点击这里你可以链接到www.google.com](http://www.google.com)
-
-2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
 
 ###只是显示百度的图片
 ![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
