@@ -53,11 +53,9 @@ int main() {
 
 #### 插入图片
         [image](path/to/fig)
-
-![image](/images/02.jpg)
-![image](/images/ucaslogo.eps)
 ![image](/images/ucaslogo.png)
-### 显示图片也可以用原生的html标签
+![ucaslog](/images/ucaslogo.png)
+
 <img src="http://su.bdimg.com/static/superplus/img/logo_white.png" />
 
 ###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
