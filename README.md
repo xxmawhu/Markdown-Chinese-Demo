@@ -46,7 +46,7 @@
     }
 ```
 
-```c
+```
 	int main(int argc,char *argv[]) //C
 ```
 ### 多行文本框  
