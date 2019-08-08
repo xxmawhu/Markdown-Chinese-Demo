@@ -41,7 +41,9 @@
         也可以插入代码。比如
 
 ```c
-    int main(int argc,char *argv[]) 
+    int main() {
+        std::cout << "Hello, Github!" << std::endl;
+    }
 ```
 
 ```c
