@@ -77,3 +77,5 @@ int main() {
 	int main(int argc,char *argv[]) //C
 ```
 
+### 部分词语高亮
+用\` \`把需要`高亮`的部分`扩起来`
