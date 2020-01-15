@@ -54,8 +54,8 @@ int main() {
 #### 插入图片
         [tag](path/to/fig)
 ![ucaslog](/images/ucaslogo.png)
-![ucaslog](./util/neu_eeL.pdf)
-![ucaslog](./util/neu_eeL.jpg)
+![ucaslog](/util/neu_eeL.pdf)
+![ucaslog](/util/neu_eeL.jpg)
 
 
 #### 条目
