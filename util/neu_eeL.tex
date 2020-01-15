@@ -1,0 +1,68 @@
+\documentclass[convert]{standalone}
+
+\usepackage{tikz}%
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\tikzset{%
+  myvertex/.style = {%
+      decorate,
+    draw=blue,
+    fill=blue,
+    }
+}
+\tikzstyle{Vtx}[blue]=[draw=blue,fill=blue]
+
+\begin{document}
+
+\begin{tikzpicture}
+    \tikzset{mvex/.style={draw, circle}}
+  \begin{feynman}
+      \vertex(i0);
+      \vertex[above=0.5em of i0]{\(J/\psi\)};
+      \vertex[right=2cm of i0](i1);
+      % add decay comment 
+      \vertex[right=1.3cm of i1](ksv1);
+      \vertex[above=1.6cm of ksv1](ks1) {\(K_{S}\)};
+      \vertex[right=1.3cm of i1](ksv);
+      \vertex[below=1.4cm of ksv](ks2) {\(K_{S}\)};
+      \vertex[right=2.2cm of i1](i1c);
+      \vertex[above=0.1cm of i1c](phi) {\(\phi\)};
+
+      \vertex[right=3cm of i1](phiv); 
+
+      \vertex[right=2.5cm of i1](ks1vv);
+      \vertex[above=2.5cm of ks1vv](ks1v);
+
+      \vertex[right=2cm of phiv](phidecay);
+      \vertex[above=1cm of phidecay](ks_phi);
+      \vertex[below=1cm of phidecay](kL_phi){\(K_{L}\)};
+      % commen on ks_phi
+      \vertex[right=1.6cm of phiv](ks_phi_vv);
+      %\vertex[below=0.6cm of ks_phi_vv](KLC) {\(K_{L}\)};
+      \vertex[above=0.1cm of ks_phi_vv](KsC) {\(K_{S}\)};
+      % ks_phi decay to pipi
+      \vertex[right=2cm of ks_phi](ks_phidecay);
+      \vertex[above=1cm of ks_phidecay](pi_ks_phi) {\(\pi^{+}\)};
+      \vertex[below=1cm of ks_phidecay](pi2_ks_phi){\(\pi^{-}\)};
+      
+      \vertex[right=1.5cm of ks1v](ks1deay);
+      \vertex[above=0.7cm of ks1deay](a1) {\(\pi^{+}\)};
+      \vertex[below=0.7cm of ks1deay](a2) {\(\pi^{-}\)};
+
+      \vertex[right=2.5cm of i1](ksv);
+      \vertex[below=2.5cm of ksv](ks);
+      \vertex[right=1.5cm of ks](ksdecay);
+      \vertex[above=0.7cm of ksdecay](pi1){\(\pi^{-}\)};
+      \vertex[below=0.7cm of ksdecay](pi2) {\(\pi^{+}\)};
+
+    \diagram*{%
+        (i0) -- (i1) --(ks1v), (i1)--(phiv)--(ks_phi), (i1)--(ks),
+        (phiv) -- (kL_phi), (ks1v)--(a1), (ks1v)--(a2), 
+        (ks)--(pi1), (ks)--(pi2),
+        (ks_phi)--(pi_ks_phi), (ks_phi)--(pi2_ks_phi),
+
+    };
+  \end{feynman}
+\end{tikzpicture}
+
+\end{document}
