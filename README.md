@@ -56,6 +56,7 @@ int main() {
 ![ucaslog](/images/ucaslogo.png)
 ![ucaslog](/util/neu_eeL.pdf)
 ![ucaslog](/util/neu_eeL.jpg)
+![ucaslog](/util/neu_eeL.png)
 
 
 #### 条目
