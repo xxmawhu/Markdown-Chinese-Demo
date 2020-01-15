@@ -54,6 +54,9 @@ int main() {
 #### 插入图片
         [tag](path/to/fig)
 ![ucaslog](/images/ucaslogo.png)
+![ucaslog](./util/neu_eeL.pdf)
+![ucaslog](./util/neu_eeL.jpg)
+
 
 #### 条目
 写文章时经常会用到list列表条目。GitHub的markdown语法里也支持使用圆点符。编辑的时候使用的是星号*。
