@@ -54,9 +54,11 @@ int main() {
 #### 插入图片
         [tag](path/to/fig)
 ![ucaslog](/images/ucaslogo.png)
-![ucaslog](/util/neu_eeL.pdf)
-![ucaslog](/util/neu_eeL.jpg)
-![ucaslog](/util/neu_eeL.png)
+
+>  decay mode
+![ucaslog2](./util/neu_eeL.pdf)
+![ucaslog3](./util/neu_eeL.jpg)
+![ucaslog4](./util/neu_eeL.png)
 
 
 #### 条目
